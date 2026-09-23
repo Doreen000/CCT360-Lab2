@@ -1,11 +1,8 @@
 document.getElementById('myIDForToClick').onclick = function() {
-    alert("Nice Click!");
+    alert("The purpose of this website is showing my cat");
 }
 
 function clicked() {
-    document.getElementById('title').style.color = "red";
-}
+    document.getElementById('LarryImage').style.display = "block";
 
-function clicked2() {
-    document.getElementById('title').style.color = "black";
 }

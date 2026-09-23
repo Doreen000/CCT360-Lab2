@@ -2,13 +2,21 @@
 <hyml>
     <head>
         <title>CCT360 Lab2</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         
-        <button id="myIDForToClick">Click Here!</button>
-        <p id="title">This is tilte.</p>
-        <button onclick="clicked()">Click to change the title color</button>
-        <button onclick="clicked2()">Click to change the title color back</button>
+        <h1>Welcome to My Website</h1>
+        <div class="button-container">
+            <button id="myIDForToClick">Intruduction</button>
+        </div>
+        <p id="paragraph">My cat's name is Larry, he is the cutest cat in the world.</p>
+        <div class="button-container">
+            <button onclick="clicked()">Click here to see Larry</button>
+        </div>
+        <div class="picture-container">
+            <img id="LarryImage" src="IMG_7995.jpeg" alt="Larry">
+        </div>
         <script src="js/script.js"></script>
 
     </body>
