@@ -4,5 +4,6 @@ document.getElementById('myIDForToClick').onclick = function() {
 
 function clicked() {
     document.getElementById('LarryImage').style.display = "block";
-
+    document.getElementById('paragraph').innerHTML = "Here is Larry!";
+    document.getElementById('mainTitle').style.color = "blue";
 }
